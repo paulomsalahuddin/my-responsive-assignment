@@ -1,0 +1,282 @@
+/* These are all the button and word colors used for the span attr */
+.name-color{
+    color: rgba(255, 119, 65, 0.815);
+}
+.word-color{
+    color:rgb(250, 93, 93);
+}
+.mt-0 {
+    margin-top: 70px !important;
+  }
+
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    line-height: 100%;
+
+    
+}
+h3{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    line-height: 100%;
+
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    
+}
+.half-width{
+    width: 30%;
+    float: center;
+    padding-left: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    margin-top: 15%;
+
+}
+#navbar-logo{
+    width: 55%;
+}
+.col-sm-6{
+    height: 500px;
+    margin-bottom: -50px;
+}
+.intro-image img{
+    height: 100%;
+    width: 100%;
+}
+.intro{
+    font-family: monospace;
+    font-size: large;
+
+}
+.link-button{
+    color: white;
+    text-decoration: none;
+    background-color: rgba(133, 80, 255, 0.897);
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: 700;
+    background-image: linearGradient(45deg, light);
+    font-family: sans-serif;
+}
+.link-button:hover {
+    background-color: rgb(95, 31, 245);
+    color: white;
+}
+.sign-in-button{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(224, 52, 52);
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: 700;
+    background-image: linearGradient(45deg, dark);
+    font-family: sans-serif;
+}
+.sign-in-button:hover {
+    background-color: rgb(189, 25, 25);
+    color: white;
+}
+
+.card-footer{
+    background-color:white ;
+    border: none;
+    margin-top: -50px;
+
+}
+.casual-shoes img{
+    border-radius:none;
+    background-color: whitesmoke;
+    padding: 10%;
+}
+.casual-shoes{
+    border-radius: 10px;
+}
+.list-font{
+    width: 200px;
+    height:10px;
+    float: left;
+    font-size: 20px ;
+    padding-left:none;
+    margin-left: none;
+    margin-bottom:none;
+    margin-top: none;
+
+}
+.blog{
+    display:flex !important;
+    align-items: right !important;
+    font-size: 15px;
+    border-radius: 1em;
+}
+h3{
+    font-size: 20px;
+}
+.blog img{
+    height: 70px;
+    width: 50px;
+}
+.third-section-half-width{
+    width: 45%;
+    float: left;
+    padding-left: none;
+    margin-left: none;
+    margin-bottom: 5%;
+    margin-top: 15%;
+
+}
+.third-section-half-width img{
+    float: right;
+    width: 100%;
+}
+.card{
+    padding: 15px 10px;
+    border-radius: 10px;
+}
+/*This is the footer section*/
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+  margin-top: 20px;
+
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
